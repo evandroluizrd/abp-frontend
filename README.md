@@ -1,7 +1,7 @@
-Equipe: Axel Cris Filastro da Silva
-	Cleiton Lino Rodrigues
-	Evandro Luiz Rodrigues Damazio
-	Hian Rick Francesconi Macedo
+Equipe: Axel Cris Filastro da Silva,
+	Cleiton Lino Rodrigues,
+	Evandro Luiz Rodrigues Damazio,
+	Hian Rick Francesconi Macedo,
 	Yasmin Bez Fontana
 
 
