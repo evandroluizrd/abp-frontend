@@ -9,4 +9,5 @@ Descrição: Criação de um site de vendas
 
 
 Objetivo: Vendas de Varejo
+
 Modelo: React
