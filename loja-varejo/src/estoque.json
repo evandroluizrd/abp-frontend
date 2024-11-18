@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "nome": "Camiseta Básica",
+      "descricao": "Camiseta de algodão confortável",
+      "preco": 49.90,
+      "cores": ["Branco", "Preto", "Azul"],
+      "tamanhos": ["P", "M", "G", "GG"],
+      "imagem": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "nome": "Calça Jeans",
+      "descricao": "Calça jeans ajustada para conforto e estilo",
+      "preco": 129.90,
+      "cores": ["Azul Claro", "Azul Escuro"],
+      "tamanhos": ["36", "38", "40", "42"],
+      "imagem": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "nome": "Tênis Esportivo",
+      "descricao": "Tênis leve e confortável para o dia a dia",
+      "preco": 199.90,
+      "cores": ["Preto", "Branco", "Cinza"],
+      "tamanhos": ["38", "39", "40", "41", "42"],
+      "imagem": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "nome": "Regata Básica",
+      "descricao": "Regata básica, ideal para dias quentes",
+      "preco": 29.90,
+      "cores": ["Preto", "Branco", "Cinza","Amarelo","Verde"],
+      "tamanhos": ["38", "39", "40", "41", "42"],
+      "imagem": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "nome": "Camiseta Estampada",
+      "descricao": "Camiseta de algodão confortável, com estampas diversas",
+      "preco": 69.90,
+      "cores": ["Branco", "Preto", "Azul","Vermelho","Amarelo","Rosa"],
+      "tamanhos": ["P", "M", "G", "GG"],
+      "imagem": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "nome": "Regata Estampada",
+      "descricao": "Regata de algodãp confortável, com estampas diversas",
+      "preco": 49.90,
+      "cores": ["Branco", "Preto", "Azul", "Vermelho", "Amarelo"],
+      "tamanhos": ["P", "M", "G", "GG"],
+      "imagem": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "nome": "Bíquini",
+      "descricao": "Bíquini ideal para o verão",
+      "preco": 59.99,
+      "cores": ["Rosa", "Vermelho", "Amarelo", "Preto", "Branco", "Roxo"],
+      "tamanhos": ["PP", "P", "M", "G", "GG"],
+      "imagem":"https://via.placeholder.com/150"
+    },
+    {
+        "id": 8,
+        "nome": "Sunga",
+        "descricao": "Sunga ideal para o verão",
+        "preco": 59.99,
+        "cores": ["Azul", "Preto","Verde escuro", "Vermelho", "Branco"],
+        "tamanhos": ["PP", "P", "M", "G", "GG"],
+        "imagem":"https://via.placeholder.com/150"
+    }
+
+]
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  
