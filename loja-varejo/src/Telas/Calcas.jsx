@@ -1,4 +1,4 @@
-function Calças(){
+export default function Calcas(){
 
     return(
         <div>
