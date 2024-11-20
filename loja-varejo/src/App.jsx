@@ -24,8 +24,9 @@ function RootLayout() {
             <Link to="/Produtos">Produtos</Link>
         </li>
       </ul>
-      <Outlet />
+      
       </header>
+      <Outlet/>
     </div>
   );
 }
