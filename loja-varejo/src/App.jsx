@@ -4,6 +4,8 @@ import Home from './Telas/Home';
 import Camisas from './Telas/Camisas';
 import Calcas from './Telas/Calcas';
 import Produtos from './Telas/Produtos';
+import './App.css';
+
 function RootLayout() {
   return (
     <div>
