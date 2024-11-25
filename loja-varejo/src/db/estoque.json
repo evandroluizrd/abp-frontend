@@ -6,7 +6,7 @@
       "preco": 49.90,
       "cores": ["Branco", "Preto", "Azul"],
       "tamanhos": ["P", "M", "G", "GG"],
-      "imagem": "https://via.placeholder.com/150"
+      "imagem": "https://cdn.awsli.com.br/2500x2500/1922/1922496/produto/160969354/camiseta-branca-corte-agbhsn.jpg"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "preco": 129.90,
       "cores": ["Azul Claro", "Azul Escuro"],
       "tamanhos": ["36", "38", "40", "42"],
-      "imagem": "https://via.placeholder.com/150"
+      "imagem": "https://lojaplanetgirls.vteximg.com.br/arquivos/ids/259704-1000-1500/01052484_018_1-PG-CALCA-JEANS-LOGO-ESTAMPA-LATERAL.jpg?v=638277041160070000"
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "preco": 199.90,
       "cores": ["Preto", "Branco", "Cinza"],
       "tamanhos": ["38", "39", "40", "41", "42"],
-      "imagem": "https://via.placeholder.com/150"
+      "imagem": "https://images.tcdn.com.br/img/img_prod/787274/tenis_esportivo_feminino_runfalcon_3_cinza_multicolor_adidas_hq1474_10650_1_5ec605ad29c74641195c18613538a565.jpg"
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "preco": 29.90,
       "cores": ["Preto", "Branco", "Cinza","Amarelo","Verde"],
       "tamanhos": ["38", "39", "40", "41", "42"],
-      "imagem": "https://via.placeholder.com/150"
+      "imagem": "https://dcdn.mitiendanube.com/stores/002/363/826/products/1b6bc7104e4c7d3b6a9857ac2a011432-fbc0f61b02587c809517194244599541-1024-1024.jpg"
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "preco": 69.90,
       "cores": ["Branco", "Preto", "Azul","Vermelho","Amarelo","Rosa"],
       "tamanhos": ["P", "M", "G", "GG"],
-      "imagem": "https://via.placeholder.com/150"
+      "imagem": "https://m.media-amazon.com/images/I/51WjD5JxXFL._AC_.jpg"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "preco": 49.90,
       "cores": ["Branco", "Preto", "Azul", "Vermelho", "Amarelo"],
       "tamanhos": ["P", "M", "G", "GG"],
-      "imagem": "https://via.placeholder.com/150"
+      "imagem": "https://acdn.mitiendanube.com/stores/001/547/951/products/regata-barbie-68d0329052e1ac6df817210666530711-480-0.png"
     },
     {
       "id": 7,
@@ -60,7 +60,7 @@
       "preco": 59.99,
       "cores": ["Rosa", "Vermelho", "Amarelo", "Preto", "Branco", "Roxo"],
       "tamanhos": ["PP", "P", "M", "G", "GG"],
-      "imagem":"https://via.placeholder.com/150"
+      "imagem":"https://img.ltwebstatic.com/images3_pi/2023/06/15/16867928920b11abee58320bd7e3927d1ec80a8f79_thumbnail_720x.jpg"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "preco": 59.99,
         "cores": ["Azul", "Preto","Verde escuro", "Vermelho", "Branco"],
         "tamanhos": ["PP", "P", "M", "G", "GG"],
-        "imagem":"https://via.placeholder.com/150"
+        "imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF0gb2tGaO5SNznsJ2mwxsA1r2sACbsabUNQ&s"
     }
 
 ]
