@@ -12,16 +12,16 @@ function RootLayout() {
         <header>
       <ul>
         <li>
-            <Link to="/">Home</Link>
+            <Link to="/"className="link">Home</Link>
         </li>
         <li>
-            <Link to="/calcas">Calças</Link>
+            <Link to="/calcas"className="link">Calças</Link>
         </li>
         <li>
-            <Link to="/camisas">Camisas</Link>
+            <Link to="/camisas"className="link">Camisas</Link>
         </li>
         <li>
-            <Link to="/Produtos">Produtos</Link>
+            <Link to="/Produtos"className="link">Produtos</Link>
         </li>
       </ul>
       

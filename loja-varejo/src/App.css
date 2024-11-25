@@ -1,0 +1,28 @@
+header {
+    background-color: #8baf8c;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0; 
+    display: flex; /* Alinha os itens em linha */
+}
+
+li {
+    margin-right: 15px; /* Espaçamento entre os botões */
+}
+
+.link {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; 
+    background-color: #266d47f1; 
+    padding: 10px 15px; /* Padding para criar um botão */
+    border-radius: 5px; 
+    transition: background-color 0.5s; /* Efeito de transição */
+}
+
+.link:hover {
+    background-color: #999999; /* Cor de fundo ao passar o mouse */
+}
