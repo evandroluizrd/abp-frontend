@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import '../layouts/App.css';
 import estoque from '../db/estoque.json';
     
 export default function Estoque() {
@@ -11,7 +11,7 @@ export default function Estoque() {
           <div >
             {estoque.map((estoque) => (
               <Link
-                to={'/produtos/ver/' + estoque.id}>
+                to={'/produtos/ver/' + estoque.id} className='Produtos'>
 
                 <img  src={estoque.img} alt={estoque.nome} />
                 <strong >{estoque.nome}</strong>
