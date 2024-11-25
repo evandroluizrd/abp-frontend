@@ -5,7 +5,7 @@ header {
 footer{
     background-color: #8baf8c;
     padding: 10px;
-    margin-top: 50px;
+    margin: 0px;
 }
 
 ul {
@@ -30,4 +30,9 @@ li {
 
 .link:hover {
     background-color: #999999; /* Cor de fundo ao passar o mouse */
+}
+
+
+footer{
+    margin-top: 300px;
 }

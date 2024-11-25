@@ -8,7 +8,7 @@ import './layouts/App.css';
 
 function RootLayout() {
   return (
-    <div>
+    <div >
         <header>
       <ul>
         <li>
@@ -26,7 +26,9 @@ function RootLayout() {
       </ul>
       
       </header>
+      <main>
       <Outlet/>
+      </main>
       <footer>
         Todos os Direitos Reservados
       </footer>
