@@ -27,7 +27,11 @@ function RootLayout() {
       
       </header>
       <Outlet/>
+      <footer>
+        Todos os Direitos Reservados
+      </footer>
     </div>
+    
   );
 }
 
