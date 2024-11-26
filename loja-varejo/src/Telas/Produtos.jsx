@@ -14,9 +14,10 @@ export default function Estoque() {
                 to={'/produtos/ver/' + estoque.id} className='Produtos'>
 
                 
-                <strong >{estoque.nome}</strong>
+                <h1 >{estoque.nome}</h1>
                 <img src={estoque.imagem} alt={estoque.imagem}/>
                 <h2>{estoque.descricao}</h2>
+                <h2>{estoque.preco}</h2>
                 <small >Ver mais</small>
               </Link>
             ))}

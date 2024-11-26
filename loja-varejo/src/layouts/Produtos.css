@@ -15,5 +15,5 @@
     padding: 10px; /* volume dentro do bloco*/
     margin: 30px; /* distancia entre os blocos*/
     justify-content: center;
-    width: min(300px, 30%);
+    width: min(200px, 30%);
 }
