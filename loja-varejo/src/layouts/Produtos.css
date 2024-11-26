@@ -1,25 +1,35 @@
 .Blocos{
+    font-family: monospace;
     justify-content: center;
     align-items: start;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 
 
 
 .Produtos{
+    color: black;
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    border-style: solid;
+    border: solid, #266d47f1;
     padding: 10px; /* volume dentro do bloco*/
     margin: 30px; /* distancia entre os blocos*/
     justify-content: center;
-    transition: background-color 0.5s; /* Efeito de transição */
+    transition: background-color 0.5s; /* Velocidade transição */
     width: min(200px, 30%);
 }
 
 .Produtos:hover {
     background-color: #999999; /* Cor de fundo ao passar o mouse */
+}
+
+.Preco{
+    display: flex;
+    justify-content: center;
+    background-color: #8baf8c;
+    border-radius: 20px;
 }
