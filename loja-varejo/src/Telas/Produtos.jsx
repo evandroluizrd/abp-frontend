@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../layouts/App.css';
+import '../layouts/Produtos.css';
 import estoque from '../db/estoque.json';
     
 export default function Estoque() {
@@ -8,13 +8,15 @@ export default function Estoque() {
           <h2 >
             Loja Virtual - Produtos
           </h2>
-          <div >
+          <div className='Blocos' >
             {estoque.map((estoque) => (
               <Link
                 to={'/produtos/ver/' + estoque.id} className='Produtos'>
 
-                <img  src={estoque.img} alt={estoque.nome} />
+                
                 <strong >{estoque.nome}</strong>
+                <img src={estoque.imagem} alt={estoque.imagem}/>
+                <h2>{estoque.descricao}</h2>
                 <small >Ver mais</small>
               </Link>
             ))}
