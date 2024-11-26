@@ -5,9 +5,10 @@ import estoque from '../db/estoque.json';
 export default function Estoque() {
       return (
         <div >
-          <h2 >
-            Loja Virtual - Produtos
-          </h2>
+          <h2>Produtos</h2>
+
+
+
           <div className='Blocos' >
             {estoque.map((estoque) => (
               <Link
@@ -17,8 +18,7 @@ export default function Estoque() {
                 <h1 >{estoque.nome}</h1>
                 <img src={estoque.imagem} alt={estoque.imagem}/>
                 <h2>{estoque.descricao}</h2>
-                <h2>{estoque.preco}</h2>
-                <small >Ver mais</small>
+                <h2 className='Preco'> R${estoque.preco.toFixed (2)}</h2>
               </Link>
             ))}
           </div>

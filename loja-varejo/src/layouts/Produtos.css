@@ -1,5 +1,6 @@
 .Blocos{
     justify-content: center;
+    align-items: start;
     display: flex;
     flex-wrap: wrap;
 }
@@ -15,5 +16,10 @@
     padding: 10px; /* volume dentro do bloco*/
     margin: 30px; /* distancia entre os blocos*/
     justify-content: center;
+    transition: background-color 0.5s; /* Efeito de transição */
     width: min(200px, 30%);
+}
+
+.Produtos:hover {
+    background-color: #999999; /* Cor de fundo ao passar o mouse */
 }
