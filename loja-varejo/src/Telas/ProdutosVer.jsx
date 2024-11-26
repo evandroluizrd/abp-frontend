@@ -1,7 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
+
 import produtos from '../db/estoque.json';
-
-
 
 export default function ProdutosVer() {
   let { id } = useParams();
@@ -13,14 +12,14 @@ export default function ProdutosVer() {
   }
 
   return (
-    <div>
-      <h2 >{produto.nome}</h2>
-
-      <div>
-         <img src={produto.img} alt={produto.nome} />
+    <div >
+      <h2 >
+        {produto.nome}
+      </h2>
+      <div >
+        <img src={produto.imagem} alt={produto.nome} />
       </div>
-
-      <div>
+      <div >
         R$ {produto.preco.toFixed(2)}
       </div>
       <div >
