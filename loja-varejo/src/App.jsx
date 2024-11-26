@@ -4,6 +4,7 @@ import Home from './Telas/Home';
 import Camisas from './Telas/Camisas';
 import Calcas from './Telas/Calcas';
 import Produtos from './Telas/Produtos';
+import ProdutosVer from './Telas/ProdutosVer';
 import './layouts/App.css';
 
 function RootLayout() {
@@ -46,6 +47,7 @@ const router = createBrowserRouter([
       { path: '/calcas', element: <Calcas /> },
       { path: '/camisas', element: <Camisas /> },
       { path: '/produtos', element: <Produtos />},
+      { path: '/produtos/ver/:id', element: <ProdutosVer /> },
     ],
   },
 ]);
