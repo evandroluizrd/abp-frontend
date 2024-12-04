@@ -1,27 +1,23 @@
 import '../layouts/Login.css';
-import { useContext} from 'react';
+import { useContext, useState } from 'react';
 import { TesteLogin } from '../db/login';
 import { LoginContext } from '../db/LoginContext';
 
-
-
-
 export default function Login() {
-  const {UserData, login} = useContext(LoginContext)
+  const { login } = useContext(LoginContext);
+  const [Username, setUsername] = useState('');
+  const [Password, setPassword] = useState('');
 
-  const HandleSubmit = async(event) => {
+  const HandleSubmit = async (event) => {
     event.preventDefault();
 
-
-    try{
+    try {
       const UserData = await TesteLogin(Username, Password);
-      setUserSata(UserData)
-    } catch{
-      alert("Erro, verifique seu usuario ou senha")
+      login(UserData);
+    } catch {
+      alert("Erro, verifique seu usuario ou senha");
     }
   };
-
-
 
   return (
     <div className="login-container">
@@ -31,6 +27,8 @@ export default function Login() {
           <div>
             <label htmlFor="username">Usuário:</label>
             <input
+              onChange={(event) => setUsername(event.target.value)}
+              value={Username}
               name='username'
               type="text"
               id="username"
@@ -40,6 +38,8 @@ export default function Login() {
           <div>
             <label htmlFor="password">Senha:</label>
             <input
+              onChange={(event) => setPassword(event.target.value)}
+              value={Password}
               name="password"
               type="password"
               id="password"
