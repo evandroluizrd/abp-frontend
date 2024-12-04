@@ -1,11 +1,12 @@
 import { createBrowserRouter, RouterProvider, Link, Outlet } from 'react-router-dom';
-
+import { LoginProvider, LoginContext } from './db/LoginContext';
 import Home from './Telas/Home';
 import Carrinho from './Telas/Carrinho';
 import Produtos from './Telas/Produtos';
 import ProdutosVer from './Telas/ProdutosVer';
 import Login from './Telas/Login';
 import './layouts/App.css';
+import { useContext } from 'react';
 
 function RootLayout() {
   return (
@@ -55,8 +56,18 @@ const externalRouter = createBrowserRouter([
   }
 
 
-])
+]);
+
+function WebRouter() {
+  const {UserData} = useContext(LoginContext);
+
+  return <RouterProvider router={!UserData ? externalRouter : internalRouter}/>;
+}
 
 export default function App() {
-  return <RouterProvider router={externalRouter} />;
+  return(
+    <LoginProvider>
+      <WebRouter/>
+    </LoginProvider>
+  )
 }
