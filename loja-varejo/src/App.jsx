@@ -35,7 +35,7 @@ function RootLayout() {
   );
 }
 
-const router = createBrowserRouter([
+const internalRouter = createBrowserRouter([
   {
     path: '/',
     element: <RootLayout />,
@@ -46,12 +46,17 @@ const router = createBrowserRouter([
       { path: '/produtos/ver/:id', element: <ProdutosVer /> },
     ],
   },
-  {
-    path: '/login',
-    element: <Login />, // Aqui, a página de login não terá o layout com menus
-  },
 ]);
 
+const externalRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <Login />,
+  }
+
+
+])
+
 export default function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={externalRouter} />;
 }
