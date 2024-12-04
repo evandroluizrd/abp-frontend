@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centraliza verticalmente */
+    background-color: #f7f7f7; /* Cor de fundo da página */
+  }
+  
+  .login-box {
+    background-color: white; /* Cor de fundo da caixa de login */
+    padding: 20px; /* Espaçamento interno da caixa */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
+    width: 300px; /* Largura fixa da caixa */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%; /* Faz os campos ocuparem toda a largura da caixa */
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+    margin-bottom: 15px; /* Espaçamento inferior entre os campos */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 4px; /* Cantos arredondados */
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+  }
+  
+  button {
+    width: 100%; /* Faz os botões ocuparem toda a largura da caixa */
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+    margin-top: 10px; /* Espaçamento superior entre botões */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Cor de fundo do botão de login */
+    color: white; /* Cor do texto do botão */
+  }
+  
+  button[type="button"] {
+    background-color: #d1e7dd; /* Cor de fundo do botão "Logar como convidado" */
+    color: #0f5132; /* Cor do texto do botão "Logar como convidado" */
+  }
+  
+  label {
+    margin-bottom: 5px; /* Espaçamento inferior para os rótulos */
+    display: block; /* Faz os rótulos ocuparem uma linha inteira */
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center; /* Alinha checkbox e label verticalmente */
+    margin-bottom: 15px; /* Espaçamento inferior */
+  }
+  
+  .checkbox-container input {
+    margin-right: 5px; /* Espaçamento à direita do checkbox */
+  }
+  
+  .or-text {
+    margin: 10px 0; /* Margem em cima e embaixo do texto "ou" */
+  }
+  

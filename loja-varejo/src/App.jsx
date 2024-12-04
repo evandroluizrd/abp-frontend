@@ -4,6 +4,7 @@ import Home from './Telas/Home';
 import Carrinho from './Telas/Carrinho';
 import Produtos from './Telas/Produtos';
 import ProdutosVer from './Telas/ProdutosVer';
+import Login from './Telas/Login';
 import './layouts/App.css';
 
 function RootLayout() {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {path: '/carrinho', element: <Carrinho/>},
       { path: '/produtos/ver/:id', element: <ProdutosVer /> },
     ],
+  },
+  {
+    path: '/login',
+    element: <Login />, // Aqui, a página de login não terá o layout com menus
   },
 ]);
 
