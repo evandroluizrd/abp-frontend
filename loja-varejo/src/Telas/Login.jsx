@@ -11,7 +11,7 @@ export default function Login() {
             <input
               type="text"
               id="username"
-              required // Adicionei required para garantir que o campo seja preenchido
+              required 
             />
           </div>
           <div>
@@ -19,7 +19,7 @@ export default function Login() {
             <input
               type="password"
               id="password"
-              required // Adicionei required para garantir que o campo seja preenchido
+              required 
             />
           </div>
           <div className="checkbox-container">
