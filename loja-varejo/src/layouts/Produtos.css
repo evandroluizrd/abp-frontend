@@ -11,6 +11,8 @@
 
 
 .Produtos{
+    box-shadow: 1px 4px 10px #2ab72f;
+    border-radius: 20px;
     color: black;
     text-decoration: none;
     display: flex;

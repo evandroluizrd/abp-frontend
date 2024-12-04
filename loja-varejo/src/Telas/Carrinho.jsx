@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../layouts/Carrinho.css';
 
 
 export default function Carrinho () 

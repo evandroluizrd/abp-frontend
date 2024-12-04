@@ -5,7 +5,7 @@ import estoque from '../db/estoque.json';
 export default function Estoque() {
       return (
         <div >
-          <h2>Produtos</h2>
+         
 
 
 
