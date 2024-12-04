@@ -1,66 +1,67 @@
 .login-container {
+    font-family: monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Centraliza verticalmente */
-    background-color: #f7f7f7; /* Cor de fundo da página */
+    height: 100vh; 
+    background-color: #f7f7f7; 
   }
   
   .login-box {
-    background-color: white; /* Cor de fundo da caixa de login */
-    padding: 20px; /* Espaçamento interno da caixa */
-    border-radius: 10px; /* Cantos arredondados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
-    width: 300px; /* Largura fixa da caixa */
-    text-align: center; /* Centraliza o texto dentro da caixa */
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 300px; 
+    text-align: center; 
   }
   
   input[type="text"],
   input[type="password"] {
-    width: 100%; /* Faz os campos ocuparem toda a largura da caixa */
-    padding: 10px; /* Adiciona um pouco de espaço interno */
-    margin-bottom: 15px; /* Espaçamento inferior entre os campos */
-    border: 1px solid #ccc; /* Borda padrão */
-    border-radius: 4px; /* Cantos arredondados */
-    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
   }
   
   button {
-    width: 100%; /* Faz os botões ocuparem toda a largura da caixa */
-    padding: 10px; /* Adiciona um pouco de espaço interno */
-    margin-top: 10px; /* Espaçamento superior entre botões */
-    border: none; /* Remove a borda padrão */
-    border-radius: 4px; /* Cantos arredondados */
-    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
   }
   
   button[type="submit"] {
-    background-color: #4CAF50; /* Cor de fundo do botão de login */
-    color: white; /* Cor do texto do botão */
+    background-color: #4CAF50; 
+    color: white; 
   }
   
   button[type="button"] {
-    background-color: #d1e7dd; /* Cor de fundo do botão "Logar como convidado" */
-    color: #0f5132; /* Cor do texto do botão "Logar como convidado" */
+    background-color: #d1e7dd; 
+    color: #0f5132; 
   }
   
   label {
-    margin-bottom: 5px; /* Espaçamento inferior para os rótulos */
-    display: block; /* Faz os rótulos ocuparem uma linha inteira */
+    margin-bottom: 5px; 
+    display: block; 
   }
   
   .checkbox-container {
     display: flex;
-    align-items: center; /* Alinha checkbox e label verticalmente */
-    margin-bottom: 15px; /* Espaçamento inferior */
+    align-items: center; 
+    margin-bottom: 15px;
   }
   
   .checkbox-container input {
-    margin-right: 5px; /* Espaçamento à direita do checkbox */
+    margin-right: 5px; 
   }
   
   .or-text {
-    margin: 10px 0; /* Margem em cima e embaixo do texto "ou" */
+    margin: 10px 0; 
   }
   
