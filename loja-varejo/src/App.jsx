@@ -1,8 +1,7 @@
 import { createBrowserRouter, RouterProvider, Link, Outlet } from 'react-router-dom';
 
 import Home from './Telas/Home';
-import Camisas from './Telas/Camisas';
-import Calcas from './Telas/Calcas';
+import Carrinho from './Telas/Carrinho';
 import Produtos from './Telas/Produtos';
 import ProdutosVer from './Telas/ProdutosVer';
 import './layouts/App.css';
@@ -16,13 +15,10 @@ function RootLayout() {
             <Link to="/"className="link">Home</Link>
         </li>
         <li>
-            <Link to="/calcas"className="link">Calças</Link>
-        </li>
-        <li>
-            <Link to="/camisas"className="link">Camisas</Link>
-        </li>
-        <li>
             <Link to="/Produtos"className="link">Produtos</Link>
+        </li>
+        <li>
+            <Link to="/Carrinho"className="link">Carrinho</Link>
         </li>
       </ul>
       
@@ -44,9 +40,8 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { path: '/', element: <Home /> },
-      { path: '/calcas', element: <Calcas /> },
-      { path: '/camisas', element: <Camisas /> },
       { path: '/produtos', element: <Produtos />},
+      {path: '/carrinho', element: <Carrinho/>},
       { path: '/produtos/ver/:id', element: <ProdutosVer /> },
     ],
   },
