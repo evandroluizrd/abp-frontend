@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider, Link, Outlet } from 'react-router-
 import { LoginProvider, LoginContext } from './db/LoginContext';
 import Home from './Telas/Home';
 import Carrinho from './Telas/Carrinho';
+import ProdutoFormulario from './Telas/AdcProduto';
 import Produtos from './Telas/Produtos';
 import ProdutosVer from './Telas/ProdutosVer';
 import Login from './Telas/Login';
@@ -17,10 +18,13 @@ function RootLayout() {
             <Link to="/"className="link">Home</Link>
         </li>
         <li>
-            <Link to="/Produtos"className="link">Produtos</Link>
+            <Link to="/produtos"className="link">Produtos</Link>
         </li>
         <li>
-            <Link to="/Carrinho"className="link">Carrinho</Link>
+            <Link to="/carrinho"className="link">Carrinho</Link>
+        </li>
+        <li className='adcp'>
+          <Link to="/seuproduto"className='link'>Seu Produto</Link>
         </li>
       </ul>
       
@@ -45,6 +49,7 @@ const internalRouter = createBrowserRouter([
       { path: '/produtos', element: <Produtos />},
       {path: '/carrinho', element: <Carrinho/>},
       { path: '/produtos/ver/:id', element: <ProdutosVer /> },
+      { path: '/seuproduto', element: <ProdutoFormulario/>}
     ],
   },
 ]);

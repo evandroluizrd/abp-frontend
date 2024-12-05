@@ -23,6 +23,12 @@ export default function ProdutosVer() {
         R$ {produto.preco.toFixed(2)}
       </div>
       <div >
+      <Link to={'/carrinho'}>
+                Adicionar ao carrinho
+             </Link>
+
+             <p/>
+             
         <Link to="/produtos">
           ← Voltar
         </Link>
