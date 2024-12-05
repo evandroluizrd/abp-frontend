@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-
+import '../layouts/ProdutosVer.css'
 import produtos from '../db/estoque.json';
 
 export default function ProdutosVer() {
@@ -12,11 +12,11 @@ export default function ProdutosVer() {
   }
 
   return (
-    <div >
+    <div className='Tudo' >
       <h2 >
         {produto.nome}
       </h2>
-      <div >
+      <div className='Imagem' >
         <img src={produto.imagem} alt={produto.nome} />
       </div>
       <div >
