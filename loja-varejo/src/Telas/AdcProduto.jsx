@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import '../layouts/adicionar.css';
 const ProdutoFormulario = ({ adicionarProduto }) => {
   const [nome, setNome] = useState('');
   const [descricao, setDescricao] = useState('');
@@ -12,7 +12,7 @@ const ProdutoFormulario = ({ adicionarProduto }) => {
     e.preventDefault();
 
     const novoProduto = {
-      id: Math.random(), //ID aleatório
+      id: Math.random(),
       nome,
       descricao,
       preco: parseFloat(preco),
@@ -25,7 +25,10 @@ const ProdutoFormulario = ({ adicionarProduto }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+
+
+  <div >
+    <form className = "caixa"onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Nome"
@@ -70,6 +73,7 @@ const ProdutoFormulario = ({ adicionarProduto }) => {
       />
       <button type="submit">Adicionar Produto</button>
     </form>
+    </div>
   );
 };
 
