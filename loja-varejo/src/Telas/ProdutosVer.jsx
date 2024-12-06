@@ -13,25 +13,37 @@ export default function ProdutosVer() {
 
   return (
     <div className='Tudo' >
-      <h2 >
+      <div className='Quadrado'>
+      <h2 className='Nome' >
         {produto.nome}
       </h2>
       <div className='Imagem' >
         <img src={produto.imagem} alt={produto.nome} />
       </div>
-      <div >
-        R$ {produto.preco.toFixed(2)}
       </div>
-      <div >
-      <Link to={'/carrinho'}>
+      <div className='Descricao'>
+
+      <h2>{produto.descricao}</h2>
+      <h2>Tamanhos:</h2>
+      <h3>{produto.tamanhos.join(',')}</h3>
+      <h2>Cores Disponíveis:</h2>
+      <h3>{produto.cores.join(', ')}</h3>
+      <h2 >
+        R$ {produto.preco.toFixed(2)}
+      </h2>
+      
+      
+      <div className='Botao' >
+      <Link className='Carrinho' to={'/carrinho'}>
                 Adicionar ao carrinho
              </Link>
 
              <p/>
              
-        <Link to="/produtos">
+        <Link className='Voltar' to="/produtos">
           ← Voltar
         </Link>
+        </div>
       </div>
     </div>
   );

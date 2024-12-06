@@ -28,7 +28,7 @@ const ProdutoFormulario = ({ adicionarProduto }) => {
 
 
   <div >
-    <form className = "caixa"onSubmit={handleSubmit}>
+    <form className = "caixa"onSubmit={handleSubmit}> Adicione aqui seu produto, faça parte do nosso site:
       <input
         type="text"
         placeholder="Nome"
