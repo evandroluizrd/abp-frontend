@@ -37,13 +37,13 @@
   }
   
   button[type="submit"] {
-    background-color:#8baf8c;
+    background-color:#28a745;
     color: white; 
   }
   
   button[type="button"] {
     background-color: #d1e7dd; 
-    color: #0f5132; 
+    color: #010704; 
   }
   
   label {
@@ -64,3 +64,8 @@
   .or-text {
     margin: 10px 0; 
   }
+
+  button:hover{
+    background-color: #999999;
+    }
+
