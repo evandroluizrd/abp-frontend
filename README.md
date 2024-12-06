@@ -21,5 +21,5 @@ Bem-vindo ao projeto **Loja Virtual - React**! 🎉 Este projeto tem como objeti
 - **Yasmin Bez Fontana**
 
 ---
-
+##Login: "Hian" Senha: "1234"
 Agradecemos por visitar o nosso projeto! 💻
